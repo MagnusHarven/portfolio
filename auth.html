@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobby</title>
+    <script>
+        function showAlert() {
+            alert("iHola! 'name' bienvenido al lobby de GameGalaxy.")
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .welcome {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #142881;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 48%;
+            padding: 20px;
+            background-color: #e7e7e7;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .box h2 {
+            margin-top: 0;
+        }
+
+        .Google {
+            color: darkblue;
+        }
+
+        .HG {
+            color: darkblue;
+        }
+
+        .status {
+            color: black;
+        }
+
+        .mnt {
+            color: lime;
+        }
+
+        .notworking {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <br />
+    <div class="container">
+        <div class="welcome">
+            <h1>Bienvenido al lobby.</h1>
+            <p>Aqui, podras encontrar metodos de viaje hacia donde desees ir antes de <br />
+            iniciar en nuestra pagina.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <h2 class="Google">> Volver hacia Google </h2>
+                <p>Si por cualquier error, oh link de spam llegaste hacia esta pagina, <br />
+                pulsando aqui podras volver hacia la pestaña inicial de Google Chrome.</p>
+                <a href="https://www.google.com">Volver a google</a>
+            </div>
+            <div class="box">
+                <h2 class="HG">> Iniciar en HyGaming </h2>
+                <p>Pulsando aqui, podras ingresar a la pagina de HyLander web.</p>
+                <p class="status">Estado: <a class="mnt"><u>Disponible</u></a></p>
+                <a href="../Inicio/Inicio.html">Ingresar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
